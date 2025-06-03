@@ -80,8 +80,8 @@ int main() {
     int sentence_count = countSentences(inputText);
 
     // Выводим результаты
-    cout << "Количество слов, начинающихся на 'м': " << m_words_count << endl;
-    cout << "Количество слов 'Компьютер'/\"компьютер\": " << computer_word_count << endl;
+    cout << "Количество слов, начинающихся на 'm': " << m_words_count << endl;
+    cout << "Количество слов 'Computer'/\"computer\": " << computer_word_count << endl;
     cout << "Количество предложений: " << sentence_count << endl;
 
     return 0;
